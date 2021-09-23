@@ -1,10 +1,10 @@
-import xml.etree.ElementTree as ET
- 
+# 这是进行选取已经打标的文件并且重命名为数字序列
 import os
-from os import listdir , getcwd
-from os.path import join
 import shutil
- 
+import xml.etree.ElementTree as ET
+from os import getcwd, listdir
+from os.path import join
+
 classes = ['Diana','Eileen','Bella','Carol','Ava']
  
 def convert(size, box):
