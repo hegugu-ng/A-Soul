@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>8 (20).jpg</filename>
+	<path>G:\数据集\Asoul\images\8 (20).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>502</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Carol</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>24</xmin>
+			<ymin>11</ymin>
+			<xmax>423</xmax>
+			<ymax>558</ymax>
+		</bndbox>
+	</object>
+</annotation>

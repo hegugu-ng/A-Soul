@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>8 (45).jpg</filename>
+	<path>G:\数据集\Asoul\images\8 (45).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>918</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Carol</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>570</xmin>
+			<ymin>96</ymin>
+			<xmax>1080</xmax>
+			<ymax>918</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Bella</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>24</xmin>
+			<ymin>106</ymin>
+			<xmax>557</xmax>
+			<ymax>918</ymax>
+		</bndbox>
+	</object>
+</annotation>

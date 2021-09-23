@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>6 (14).jpg</filename>
+	<path>G:\数据集\Asoul\images\6 (14).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>641</width>
+		<height>328</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Ava</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>497</xmin>
+			<ymin>192</ymin>
+			<xmax>634</xmax>
+			<ymax>326</ymax>
+		</bndbox>
+	</object>
+</annotation>

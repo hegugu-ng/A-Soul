@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>ava2 (56).jpg</filename>
+	<path>G:\数据集\Asoul\images\ava2 (56).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Ava</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>535</xmin>
+			<ymin>113</ymin>
+			<xmax>762</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+</annotation>

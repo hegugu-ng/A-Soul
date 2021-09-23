@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>41 (36).jpg</filename>
+	<path>G:\数据集\Asoul\images\41 (36).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2400</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bella</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>931</xmin>
+			<ymin>94</ymin>
+			<xmax>1501</xmax>
+			<ymax>1080</ymax>
+		</bndbox>
+	</object>
+</annotation>

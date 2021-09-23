@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>test (115).jpg</filename>
+	<path>G:\数据集\Asoul\images\test (115).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1440</width>
+		<height>900</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Eileen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>312</xmin>
+			<ymin>58</ymin>
+			<xmax>782</xmax>
+			<ymax>864</ymax>
+		</bndbox>
+	</object>
+</annotation>
