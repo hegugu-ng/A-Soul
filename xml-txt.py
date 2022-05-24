@@ -35,17 +35,16 @@ def convert_annotation(image_name):
             shutil.copy(f'./Asoul/images/{image_name}.png', f'./Asoul/useimg/{r}.png')
 
 
-    f = open(f'./Asoul/labels/{image_name}.xml')
-    xml_text = f.read()
-    root = ET.fromstring(xml_text)
-    f.close()
+    with open(f'./Asoul/labels/{image_name}.xml') as f:
+        xml_text = f.read()
+        root = ET.fromstring(xml_text)
     size = root.find('size')
     w = int(size.find('width').text)
     h = int(size.find('height').text)
- 
- 
- 
- 
+
+
+
+
     for obj in root.iter('object'):
         cls = obj.find('name').text
         if cls not in classes:
@@ -56,7 +55,7 @@ def convert_annotation(image_name):
         b = (float(xmlbox.find('xmin').text), float(xmlbox.find('xmax').text), float(xmlbox.find('ymin').text),
              float(xmlbox.find('ymax').text))
         bb = convert((w,h), b)
-        out_file.write(str(cls_id) + " " + " ".join([str(a) for a in bb]) + '\n')
+        out_file.write(f"{str(cls_id)} " + " ".join([str(a) for a in bb]) + '\n')
     r += 1
  
 wd = getcwd()
